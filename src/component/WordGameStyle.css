@@ -1,0 +1,61 @@
+.container{
+width: 80%;
+margin: 150px auto;
+text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.typing-inp{
+    text-align: center;
+    margin: 20px 0;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 8px;
+
+}
+.inputs input{
+    width: 40px;
+   border:1px solid #ccc;
+   border-radius: 4px;
+   height: 40px;
+   font-style: 22px;
+margin-right: 5px;
+text-align: center;
+color: #fff;
+font-size: 33px;
+}
+
+.resetGame{
+border-radius: 10px;
+cursor: pointer;
+outline: none;
+padding: 10px 20px;
+border: none;
+background-color: rgb(217, 78, 203);
+color:#fff;
+font-size: 18px;
+transition: transform .2s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.resetGame:active{
+transform: translateY(4px);
+box-shadow: 0 5px #666;
+}
+
+.resetGame:hover{
+   color:black;
+}
+
+.wrong-letters span{
+letter-spacing: 5px;
+margin-left: 3px;
+}
+
+.guesses span{
+    margin-left: 3px;
+}
